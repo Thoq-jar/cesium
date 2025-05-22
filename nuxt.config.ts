@@ -9,14 +9,4 @@ export default defineNuxtConfig({
       diffEditor: "MonacoDiffEditor",
     },
   },
-  nitro: {
-    devProxy: {
-      '/': {
-        target: 'http://localhost:4324',
-      },
-    },
-    server: {
-      port: 4324
-    }
-  }
 });
